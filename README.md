@@ -14,7 +14,6 @@ Arduino library for advanced button handling with multi-click detection using ha
 
 ### Features
 
-<<<<<<< HEAD
 * **Single, Double, and Triple Click Detection** - Recognizes different click patterns
 * **Automatic Pause on Single Click** - Single click automatically toggles system pause state
 * **Hardware Interrupt Based** - Fast and responsive, doesn't block your code
@@ -22,15 +21,6 @@ Arduino library for advanced button handling with multi-click detection using ha
 * **Customizable Callbacks** - Define your own actions for each click type
 * **Multiple Button Support** - Up to 4 buttons simultaneously
 * **Easy to Use** - Simple API with minimal setup
-=======
-✅ **Single, Double, and Triple Click Detection** - Recognizes different click patterns
-✅ **Automatic Pause on Single Click** - Single click automatically toggles system pause state
-✅ **Hardware Interrupt Based** - Fast and responsive, doesn't block your code
-✅ **Built-in Debouncing** - Eliminates mechanical bounce issues
-✅ **Customizable Callbacks** - Define your own actions for each click type
-✅ **Multiple Button Support** - Up to 4 buttons simultaneously
-✅ **Easy to Use** - Simple API with minimal setup
->>>>>>> 43b51104d193f1ad0d870c4c01c3300cd7f2359e
 
 ### Installation
 
@@ -153,7 +143,6 @@ Libreria Arduino per la gestione avanzata dei pulsanti con rilevamento di multi-
 
 ### Caratteristiche
 
-<<<<<<< HEAD
 * **Rilevamento Singolo, Doppio e Triplo Click** – Riconosce diversi schemi di click
 * **Pausa Automatica al Singolo Click** – Il singolo click attiva/disattiva automaticamente lo stato di pausa
 * **Basata su Interrupt Hardware** – Veloce e reattiva, non blocca il codice
@@ -161,15 +150,6 @@ Libreria Arduino per la gestione avanzata dei pulsanti con rilevamento di multi-
 * **Callback Personalizzabili** – Definisci azioni diverse per ciascun tipo di click
 * **Supporto per Più Pulsanti** – Fino a 4 pulsanti simultaneamente
 * **Facile da Usare** – API semplice e setup minimo
-=======
-✅ **Rilevamento Singolo, Doppio e Triplo Click** – Riconosce diversi schemi di click
-✅ **Pausa Automatica al Singolo Click** – Il singolo click attiva/disattiva automaticamente lo stato di pausa
-✅ **Basata su Interrupt Hardware** – Veloce e reattiva, non blocca il codice
-✅ **Debouncing Integrato** – Elimina i problemi di rimbalzo meccanico
-✅ **Callback Personalizzabili** – Definisci azioni diverse per ciascun tipo di click
-✅ **Supporto per Più Pulsanti** – Fino a 4 pulsanti simultaneamente
-✅ **Facile da Usare** – API semplice e setup minimo
->>>>>>> 43b51104d193f1ad0d870c4c01c3300cd7f2359e
 
 ### Installazione
 

@@ -86,6 +86,7 @@ private:
     volatile unsigned long _lastInterruptTime;
     volatile int _clickCount;
     volatile bool _clickReady;
+    volatile bool _buttonPressed;  // Track if button is currently pressed
     
     bool _systemPaused;
     

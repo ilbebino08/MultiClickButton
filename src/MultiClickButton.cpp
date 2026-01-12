@@ -16,6 +16,7 @@ MultiClickButton::MultiClickButton(int pin, unsigned long clickTimeout, unsigned
       _lastInterruptTime(0),
       _clickCount(0),
       _clickReady(false),
+      _buttonPressed(false),
       _systemPaused(false),
       _singleClickCallback(nullptr),
       _doubleClickCallback(nullptr),
@@ -52,10 +53,13 @@ void MultiClickButton::begin() {
 void MultiClickButton::handleInterrupt() {
     unsigned long currentTime = millis();
     
-    if (currentTime - _lastInterruptTime > _debounceDelay) {
+    // Every FALLING interrupt is a button press
+    // But we only accept presses that arrive after at least 150ms from the last one
+    // (this eliminates bounce from the previous click release)
+    if (currentTime - _lastInterruptTime > 150) {
         _clickCount++;
-        _lastInterruptTime = currentTime;
         _clickReady = true;
+        _lastInterruptTime = currentTime;
     }
 }
 
